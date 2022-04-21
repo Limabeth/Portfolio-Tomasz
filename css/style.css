@@ -1670,6 +1670,8 @@ This will be applied to all elements with class *__container. E.g. header__conta
 
   .header {
     background: none;
+    background-position: auto;
+    background-size: auto;
   }
 
   .header__logo {
