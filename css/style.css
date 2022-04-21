@@ -1328,7 +1328,7 @@ This will be applied to all elements with class *__container. E.g. header__conta
 
 .contact__textarea-wrapper:before {
   content: "";
-  background: url("img/common/border-corner.svg");
+  background: url("../img/common/border-corner.svg");
   position: absolute;
   top: -5px;
   left: 0;
