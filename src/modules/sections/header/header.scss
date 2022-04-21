@@ -13,6 +13,8 @@ $bg-header-color: rgb(215, 215, 215);
 
   @include maxMobile {
     background: none;
+    background-position: auto;
+    background-size: auto;
   }
 
   &__logo {
@@ -211,7 +213,7 @@ $bg-header-color: rgb(215, 215, 215);
       }
 
       @include maxMobile {
-        @include bgCenter($bg-header-mobile);
+        background: $bg-header-mobile center center / cover;
         height: 80vh;
 
         flex-direction: row;
