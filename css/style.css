@@ -1697,11 +1697,9 @@ This will be applied to all elements with class *__container. E.g. header__conta
   }
 
   .no-webp .header__column--1 {
-    background: url("../img/backgrounds/bg-header-mobile.jpg"); }
+    background: url("../img/backgrounds/bg-header-mobile.jpg") center center/cover; }
 
   .header__column--1 {
-    background-position: center center;
-    background-size: cover;
     height: 80vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1910,5 +1908,5 @@ This will be applied to all elements with class *__container. E.g. header__conta
 
 @media screen and (max-width: 47.99875em) {
 
-  .webp .header__column--1 { background: url(../img/backgrounds/bg-header-mobile.webp); }
+  .webp .header__column--1 { background: url(../img/backgrounds/bg-header-mobile.webp) center center/cover; }
 }
