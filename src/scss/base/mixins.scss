@@ -130,7 +130,6 @@
 }
 
 // Centered Cover Background
-
 @mixin bgCenter($bgImg) {
   background: $bgImg;
   background-position: center center;
@@ -138,7 +137,6 @@
 }
 
 // Gradient Text
-
 @mixin gradientText($bg) {
   background: $bg;
   -webkit-background-clip: text;

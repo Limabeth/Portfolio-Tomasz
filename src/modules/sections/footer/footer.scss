@@ -48,11 +48,11 @@ $bg-color-footer: rgb(26, 26, 26);
   }
 
   &__social-list-item {
-      transition: transform $transition;
+    transition: transform $transition;
 
-      &:hover {
-          transform: translateY(-5px);
-      }
+    &:hover {
+      transform: translateY(-5px);
+    }
   }
 
   &__social-link {
