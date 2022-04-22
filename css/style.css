@@ -3,14 +3,6 @@
 /* ================= Fonts ================= */
 
 @font-face {
-  font-family: fontawesome;
-  font-display: swap;
-  src: url("../fonts/fontawesome.woff2") format("woff2"), url("../fonts/fontawesome.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: icomoon;
   font-display: swap;
   src: url("../fonts/icomoon.woff2") format("woff2"), url("../fonts/icomoon.woff") format("woff");
@@ -8451,7 +8443,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../../../fonts/fontawesome//fa-solid-900.woff2") format("woff2"), url("../../../fonts/fontawesome//fa-solid-900.ttf") format("truetype");
+  src: url("fonts/fontawesome//fa-solid-900.woff2") format("woff2"), url("fonts/fontawesome//fa-solid-900.ttf") format("truetype");
 }
 
 .fas,
@@ -8476,7 +8468,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../../../fonts/fontawesome//fa-brands-400.woff2") format("woff2"), url("../../../fonts/fontawesome//fa-brands-400.ttf") format("truetype");
+  src: url("fonts/fontawesome//fa-brands-400.woff2") format("woff2"), url("fonts/fontawesome//fa-brands-400.ttf") format("truetype");
 }
 
 .fab,
