@@ -2256,11 +2256,11 @@
             }));
         };
         const contact = countTextareaCharacters;
-        (function init() {
+        window.addEventListener("DOMContentLoaded", (() => {
             menu();
             portfolio();
             contact();
-        })();
+        }));
         window["FLS"] = true;
         isWebp();
     })();

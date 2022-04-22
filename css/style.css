@@ -289,9 +289,9 @@ This will be applied to all elements with class *__container. E.g. header__conta
 
 .portfolio-item {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 33.33%;
-          flex: 1 1 33.33%;
-  max-width: 33.33%;
+      -ms-flex: 1 1 33%;
+          flex: 1 1 33%;
+  max-width: 33%;
   padding: 10px;
 }
 
@@ -1083,7 +1083,7 @@ This will be applied to all elements with class *__container. E.g. header__conta
 }
 
 .portfolio__header {
-  background: rgb(177, 177, 177);
+  background: rgb(201, 201, 201);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
