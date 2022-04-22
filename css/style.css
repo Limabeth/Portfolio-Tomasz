@@ -587,6 +587,7 @@ This will be applied to all elements with class *__container. E.g. header__conta
 }
 
 .header__nav-mobile {
+  overflow: hidden;
   width: 100%;
   display: none;
   -webkit-box-pack: center;
@@ -1897,6 +1898,18 @@ This will be applied to all elements with class *__container. E.g. header__conta
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
     max-width: 100%;
+  }
+
+  .header__greeting {
+    font-size: 1.25rem;
+  }
+
+  .header__name {
+    font-size: 1.75rem;
+  }
+
+  .header__job {
+    font-size: 0.625rem;
   }
 }
 

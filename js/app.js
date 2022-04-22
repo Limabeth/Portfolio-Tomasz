@@ -2256,7 +2256,7 @@
             }));
         };
         const contact = countTextareaCharacters;
-        window.addEventListener("DOMContentLoaded", (() => {
+        window.addEventListener("load", (() => {
             menu();
             portfolio();
             contact();
