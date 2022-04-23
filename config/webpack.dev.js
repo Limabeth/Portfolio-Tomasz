@@ -153,8 +153,8 @@ const config = {
           force: true,
         },
         {
-          from: `${srcFolder}/files`,
-          to: `files`,
+          from: `${srcFolder}/fonts/fontawesome`,
+          to: `fonts/fontawesome`,
           noErrorOnMissing: true,
           force: true,
         },
